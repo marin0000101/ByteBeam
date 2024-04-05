@@ -3,15 +3,14 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      href="https://db.onlinewebfonts.com/c/d05c19ccecf7003d248c60ffd6b5e8f7?family=Binance+PLEX"
-      rel="stylesheet"
-    />
+    <link rel="shortcut icon" type="image/x-icon" href="slike/favicon.ico" />
+
     <title>ByteBeam</title>
     <style type="text/css">
       * {
-        font-family: "Binance PLEX";
+        font-family: "Poppins", sans-serif;
       }
+
       body {
         background-color: #181a20;
         padding-inline: 2rem;
@@ -38,6 +37,10 @@
         margin-inline: 0.7rem;
         transition: 0.2s;
         font-size: 1.2rem;
+      }
+      #menu li a {
+        color: white;
+        text-decoration: none;
       }
       #menu li:hover {
         cursor: pointer;
@@ -952,10 +955,9 @@
       </div>
 
       <ul id="menu">
-        <li>Home</li>
-        <li>Services</li>
-        <li>About</li>
-        <li>Contact</li>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#offer">Services</a></li>
+        <li><a href="#final-cta">Contact</a></li>
         <li id="close-btn">X</li>
       </ul>
       <div id="menu-btn"><img src="slike/menu.png" alt="Hamburger Menu" /></div>
@@ -1000,7 +1002,7 @@
         </div>
       </div>
 
-      <div class="offer">
+      <div class="offer" id="offer">
         <div class="offer-box">
           <h1>Digitalize Your Business With <span id="gold">ByteBeam</span></h1>
           <h3>
@@ -1319,7 +1321,7 @@
         </div>
       </div>
 
-      <div class="final-cta">
+      <div class="final-cta" id="final-cta">
         <h1>Ready to Lead in the <span id="gold">Marketplace?</span></h1>
         <h3>
           Your business deserves a website that works as hard as you do. Connect
